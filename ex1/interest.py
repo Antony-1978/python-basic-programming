@@ -1,0 +1,11 @@
+p=int(input("enter value p:"))
+n=int(input("enter value n:"))
+r=int(input("enter value r:"))
+t=int(input("enter value t:"))
+si=(p*n*r)/100
+print("the simple intrest=",si)
+y=n*t
+x=(1+((r/n)/100))**y
+a=p*x
+c=a-p
+print("the compound intrest=",c)
